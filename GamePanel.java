@@ -40,7 +40,7 @@ public class GamePanel extends JPanel implements ActionListener {
     }
 	/**
 	*Method wichh draw  objectives when game starts 
-	/
+	*/
     public void startGame() {
         newApple();
         newObstacle();
