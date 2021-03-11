@@ -24,7 +24,7 @@ public class GamePanel extends JPanel implements ActionListener {
     int  obstacle2X;
     int  obstacle3X;
     int   obstacle3Y ;
-    char direction = 'D';
+    char direction = 'R';
     boolean running = false;
     Timer timer;
     Random random;
@@ -38,6 +38,9 @@ public class GamePanel extends JPanel implements ActionListener {
         this.addKeyListener(new MyKeyAdapter());
         startGame();
     }
+	/**
+	*Method wichh draw  objectives when game starts 
+	/
     public void startGame() {
         newApple();
         newObstacle();
