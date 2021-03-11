@@ -24,7 +24,7 @@ public class GamePanel extends JPanel implements ActionListener {
     int  obstacle2X;
     int  obstacle3X;
     int   obstacle3Y ;
-    char direction = 'R';
+    char direction = 'D';
     boolean running = false;
     Timer timer;
     Random random;
